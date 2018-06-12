@@ -1,0 +1,832 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		003E7202A671626F94E472953A54CCB1 /* PMKCoreLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 7D993A2F755152C81DC27D329F92F0D8 /* PMKCoreLocation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		00FD28B78AD086399C5EAA0B22F1C452 /* fwd.h in Headers */ = {isa = PBXBuildFile; fileRef = FA2577F02F318D9E991F1A16537F25BA /* fwd.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		01FAFD04CFD52833575693E669C97455 /* UIView+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 294D48C69D00E4277031982490FC4D57 /* UIView+AnyPromise.m */; };
+		08AD15E279AC18BF1EA54AD380EF4CA7 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FA8B390A3818ECA282029CCC423A89 /* Foundation.framework */; };
+		14017FECEB6B587E4591F2E544E2E3F8 /* PMKQuartzCore.h in Headers */ = {isa = PBXBuildFile; fileRef = 57EC03BC97C448B043B9536CD59B9FDE /* PMKQuartzCore.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		1CFE090553452FB3CAC498FFDC8F1148 /* Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 32C11CE7D35F92B6113D67EFA18A6028 /* Promise.swift */; };
+		1D869BA209D85A1EC92248855C50915F /* UIView+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = C28565BAF3E9191851FFCF5BFF7D513C /* UIView+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		20F75C783BB62E2792B0ADBF80382A05 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2E596911B2AB8297AD8F3CBF1E2D7CA3 /* QuartzCore.framework */; };
+		2A51786602C363FFE239DD80A17BEE4F /* join.swift in Sources */ = {isa = PBXBuildFile; fileRef = 784783EF6A151AEF754C1A577577B421 /* join.swift */; };
+		2B2E1EEB49868628731F1A979CF1A36A /* NSNotificationCenter+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B8614BBDBB29B572730346A1C71569D /* NSNotificationCenter+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		34C5035BF2239D692B643247F8C02864 /* AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 153292D7A8D2B566FD764EBE1617894D /* AnyPromise.m */; };
+		368A2FF0D4845A15A67278435FC38667 /* GlobalState.m in Sources */ = {isa = PBXBuildFile; fileRef = B4B895E20FF252A0E278AA2151738BCE /* GlobalState.m */; };
+		3716F9A677281608B5D41466B8FB9B9F /* Pods-CheckWeather-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 8682CBECC477FE0CD7615B4F6D1DDFEF /* Pods-CheckWeather-dummy.m */; };
+		38ED836ECC5CB6200BEF430F5188AB5D /* Promise+Properties.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43CCE1E48111DDDAAB5913AF4CD0AC40 /* Promise+Properties.swift */; };
+		3F6DE8FEE52174A80262C1F7BBAE6FE7 /* NSURLSession+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D542F69DBC27F576BB4814A1D53C05DB /* NSURLSession+Promise.swift */; };
+		4254B08B0BFACFE0CDA483B1D92F2E46 /* CLGeocoder+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = ED1989E041D12BBD3BF6A89CB805812E /* CLGeocoder+AnyPromise.m */; };
+		4BB1991D3C645198578EFE9085D6AE7C /* PromiseKit-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 45D0B44D0FE3CC109ABAF7F5C9383E57 /* PromiseKit-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		4C5F87FF494BB8F10E429FDBCC7EA229 /* NSNotificationCenter+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 25BB93AC4FBA3E3FE5824F2AE59D7A04 /* NSNotificationCenter+Promise.swift */; };
+		51550821C9D1AEA479416B98F18A2E7A /* hang.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E282B951B43861B6556DB0ECA6268FB /* hang.m */; };
+		5CE41AF94CFAD5F5EBDE495157494CB5 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 23ECEDE1294D9B33221BD2903C42A94D /* UIKit.framework */; };
+		64097C3711C1AC240741695AE2325774 /* Promise+AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = E793F19464690D60F8F230B87C0E1A39 /* Promise+AnyPromise.swift */; };
+		667F63A98F8E3D67456064F09D581C46 /* Error.swift in Sources */ = {isa = PBXBuildFile; fileRef = 346735ACF1C1FE7DB219063FCE0A7495 /* Error.swift */; };
+		6ED6F2BF81C737BCCB0A57E1A4A7DE8B /* CLGeocoder+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 35175302A4D06B3ABA828AEDC5A17DB5 /* CLGeocoder+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		7094CFBEC74FAE46D9838EDCE1AFEE08 /* DispatchQueue+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D5C96797FDD4A919757FC25554F6E1E /* DispatchQueue+Promise.swift */; };
+		70FCDA9FA0606F9A9B9495B529BF2D8F /* wrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = FC735D90193D97E538E04D2DE9D61D5F /* wrap.swift */; };
+		71698265DCD387C1B050E97BE11DD485 /* NSNotificationCenter+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 305651CAB5CE55AC36409C0CA4870F34 /* NSNotificationCenter+AnyPromise.m */; };
+		7CA19A2C8F283540EAD6875C1B2BE238 /* AnyPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84745192FB1B87D89E3C2A57D9D6759A /* AnyPromise.swift */; };
+		7F1FFDAC479BE28AE195F8B3F313A373 /* PromiseKit-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2F493CD34B64DA9D72F4E5C1914E62A /* PromiseKit-dummy.m */; };
+		7F207F0F13C770FB9863CA10C323D535 /* NSURLSession+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 7548BF8D82A5388C47C4B5B666263D99 /* NSURLSession+AnyPromise.m */; };
+		899572D79A7B0340B7FCEDDB1CC26EB0 /* UIViewController+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 01E392BE4FB923195731DC3BB6A25E9D /* UIViewController+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8AAADC1CF3BD12E8901401EB74AE7BD9 /* UIViewController+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 4DC7978D9877E9E20414950BFDF018B7 /* UIViewController+AnyPromise.m */; };
+		8ED41FA188E5BE97FD2D309B61810F9B /* NSURLSession+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = B80682687C6518D1CF8C693C9E668D28 /* NSURLSession+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9234715B9939329D3FAE9C9E03E790D3 /* PromiseKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 8C5747AD54FC57CBCDD47BB8F7BECB1D /* PromiseKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9D26D6D9B6244A978071AEE31CCE678D /* Pods-CheckWeather-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 153A4E75FDFD25E5404D416EA1E8C978 /* Pods-CheckWeather-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A4B8C798009FFB7C42FB8091AA84427F /* afterlife.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71ED29401AEA17F1D80891709CE94C86 /* afterlife.swift */; };
+		A9E8636AFFBBD7C9E5B3A30BF5E6F450 /* Process+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2C4C200EA4D9AB1F1E6EE3515BFC5FD2 /* Process+Promise.swift */; };
+		AD014349CDF3AB0062B6778FCA8E93AB /* State.swift in Sources */ = {isa = PBXBuildFile; fileRef = 643F3518BA1E3CD85133963252C24304 /* State.swift */; };
+		AE00893908CA349CE7CF55E42150EDE3 /* NSObject+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 425FE29A8E02799DC8410764EBC732E7 /* NSObject+Promise.swift */; };
+		B6703D1DEC95FDC344FAB2BCB5700B5A /* PMKUIKit.h in Headers */ = {isa = PBXBuildFile; fileRef = 5BC6C4DADB360A4CE9AAB96FDB7C9293 /* PMKUIKit.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		B816DA3F50742C5C04E1FEE9C2CAD18B /* after.m in Sources */ = {isa = PBXBuildFile; fileRef = 08FD31D45CF7119E0BB1F0AA3B9253E7 /* after.m */; };
+		BC569E6AD7C8FF6AE39403116F77B14E /* Zalgo.swift in Sources */ = {isa = PBXBuildFile; fileRef = BDE72C98DEF4E1B47E4F3F72DE9C7D5C /* Zalgo.swift */; };
+		BCD8A614A61BBAA50500878B3000D94D /* race.swift in Sources */ = {isa = PBXBuildFile; fileRef = ED9315F5F556B44AD4D3EFCF94C24B5A /* race.swift */; };
+		C176F4357A5F0A3FB959BE7B2D50FF17 /* URLDataPromise.swift in Sources */ = {isa = PBXBuildFile; fileRef = F01DE0E0649BE478CF27C10139888E24 /* URLDataPromise.swift */; };
+		C1ADAFDC3A83B9C3CD53A9F21C8EFF69 /* PMKAlertController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0451194F67DA21D5B03DC7B12D91A576 /* PMKAlertController.swift */; };
+		C62FEC3B5EF81E69E5CE3C6C45CE06F3 /* CLLocationManager+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = AC9BFBC122A9221828BFE75ECCCB7226 /* CLLocationManager+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C86DE32842A55F5A764657F2F5038E92 /* UIViewController+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = D2FFFDFA1A819234F82DB271D5E308D1 /* UIViewController+Promise.swift */; };
+		CAB65BFF7B81F6952B382228B140BDAA /* when.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D7E78E259DF2A949BAA8D6C04DE51A2 /* when.m */; };
+		CCF2C2EA1EC5D4218C3831DBC691F9D0 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = A682890B6AF6CF6DA5BC16B799AD1594 /* CoreLocation.framework */; };
+		D012FA2848463C0A164E55BD43D4073F /* CLLocationManager+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = D623BD71AE1DFE7DB7EDB81050E6352F /* CLLocationManager+AnyPromise.m */; };
+		D0A1AFB8DDF21A5DB08C59BD9AC28912 /* when.swift in Sources */ = {isa = PBXBuildFile; fileRef = B931CE0F6158FA5C64E6BF9864660369 /* when.swift */; };
+		D1C3A849454F5549416721880E35127D /* AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = DDF812F42DF5A94057613CEE87F802E1 /* AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D2066562CEF89FDD38180D7AC0F1CC63 /* dispatch_promise.m in Sources */ = {isa = PBXBuildFile; fileRef = ECEDBBCCB09F8C5D7C019D9879DB1E70 /* dispatch_promise.m */; };
+		D6158CE41AC7444F4B3371DB55AFB251 /* after.swift in Sources */ = {isa = PBXBuildFile; fileRef = E553FA01D24F9ED549D93D0F6C436171 /* after.swift */; };
+		D68EAC453AA07A85852B3778DCE11D9D /* PMKFoundation.h in Headers */ = {isa = PBXBuildFile; fileRef = 0BE8D2CD88465FD0EE9314697A64D901 /* PMKFoundation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DAEC30DC1418C1A5AC34078F380EF30C /* UIView+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 770DBEEEFDEFC0471ECCDAA80F3B992A /* UIView+Promise.swift */; };
+		E13FBAA913FBFAEFEA4779F5EC515889 /* CALayer+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = AA2AC8E6494EB84E3BFCA1687FA39055 /* CALayer+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E1494443C290B8D87FC4C380A96F49B2 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 37FA8B390A3818ECA282029CCC423A89 /* Foundation.framework */; };
+		ECAD759666371944024DA4A79A585984 /* NSTask+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 31A0F45B66E2C5B34AE7B1A92F5CCECE /* NSTask+AnyPromise.m */; };
+		F7F44CB11F2E0F25B0DE8D4E424D6719 /* CALayer+AnyPromise.m in Sources */ = {isa = PBXBuildFile; fileRef = 6AC33E3CDA2164AB4CEF497433D76D11 /* CALayer+AnyPromise.m */; };
+		F947C2BBD1C05C302F6E70FAE74D3D83 /* CLGeocoder+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9695EA3FE702C2426BE5EFF2675666EE /* CLGeocoder+Promise.swift */; };
+		FAE3351FF56DECD3B65584D94E44D2A0 /* join.m in Sources */ = {isa = PBXBuildFile; fileRef = 863C26697128CB223C82F3C1A2CEC28E /* join.m */; };
+		FE31D33F65871804BCCB61561FAD6ECF /* NSTask+AnyPromise.h in Headers */ = {isa = PBXBuildFile; fileRef = 2F527AD733298D30DF210FAD47223E4E /* NSTask+AnyPromise.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FF866B6767612EF297C04CD6589840FF /* CLLocationManager+Promise.swift in Sources */ = {isa = PBXBuildFile; fileRef = 80CE7C097BD3404A25EB7A9703997DDD /* CLLocationManager+Promise.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B7F29E088B711991417D3BF66EA17BC /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F5AC940D14183F71DE4349BD357E3FBB;
+			remoteInfo = PromiseKit;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		01E392BE4FB923195731DC3BB6A25E9D /* UIViewController+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIViewController+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.h"; sourceTree = "<group>"; };
+		0451194F67DA21D5B03DC7B12D91A576 /* PMKAlertController.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = PMKAlertController.swift; path = Extensions/UIKit/Sources/PMKAlertController.swift; sourceTree = "<group>"; };
+		08FD31D45CF7119E0BB1F0AA3B9253E7 /* after.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = after.m; path = Sources/after.m; sourceTree = "<group>"; };
+		0BE8D2CD88465FD0EE9314697A64D901 /* PMKFoundation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKFoundation.h; path = Extensions/Foundation/Sources/PMKFoundation.h; sourceTree = "<group>"; };
+		0CA58372C6AA316DF100741B69664915 /* Pods-CheckWeather-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-CheckWeather-acknowledgements.plist"; sourceTree = "<group>"; };
+		0D27AE6824E9E92801FCA7F4FD6898E3 /* Pods-CheckWeather-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckWeather-resources.sh"; sourceTree = "<group>"; };
+		153292D7A8D2B566FD764EBE1617894D /* AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = AnyPromise.m; path = Sources/AnyPromise.m; sourceTree = "<group>"; };
+		153A4E75FDFD25E5404D416EA1E8C978 /* Pods-CheckWeather-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-CheckWeather-umbrella.h"; sourceTree = "<group>"; };
+		23ECEDE1294D9B33221BD2903C42A94D /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		25BB93AC4FBA3E3FE5824F2AE59D7A04 /* NSNotificationCenter+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSNotificationCenter+Promise.swift"; path = "Extensions/Foundation/Sources/NSNotificationCenter+Promise.swift"; sourceTree = "<group>"; };
+		294D48C69D00E4277031982490FC4D57 /* UIView+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.m"; sourceTree = "<group>"; };
+		2C4C200EA4D9AB1F1E6EE3515BFC5FD2 /* Process+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Process+Promise.swift"; path = "Extensions/Foundation/Sources/Process+Promise.swift"; sourceTree = "<group>"; };
+		2D7E78E259DF2A949BAA8D6C04DE51A2 /* when.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = when.m; path = Sources/when.m; sourceTree = "<group>"; };
+		2E596911B2AB8297AD8F3CBF1E2D7CA3 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/QuartzCore.framework; sourceTree = DEVELOPER_DIR; };
+		2F527AD733298D30DF210FAD47223E4E /* NSTask+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSTask+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.h"; sourceTree = "<group>"; };
+		305651CAB5CE55AC36409C0CA4870F34 /* NSNotificationCenter+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSNotificationCenter+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.m"; sourceTree = "<group>"; };
+		31A0F45B66E2C5B34AE7B1A92F5CCECE /* NSTask+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSTask+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSTask+AnyPromise.m"; sourceTree = "<group>"; };
+		32C11CE7D35F92B6113D67EFA18A6028 /* Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Promise.swift; path = Sources/Promise.swift; sourceTree = "<group>"; };
+		346735ACF1C1FE7DB219063FCE0A7495 /* Error.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Error.swift; path = Sources/Error.swift; sourceTree = "<group>"; };
+		35175302A4D06B3ABA828AEDC5A17DB5 /* CLGeocoder+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLGeocoder+AnyPromise.h"; path = "Extensions/CoreLocation/Sources/CLGeocoder+AnyPromise.h"; sourceTree = "<group>"; };
+		37FA8B390A3818ECA282029CCC423A89 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		3B8614BBDBB29B572730346A1C71569D /* NSNotificationCenter+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSNotificationCenter+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSNotificationCenter+AnyPromise.h"; sourceTree = "<group>"; };
+		3D5C96797FDD4A919757FC25554F6E1E /* DispatchQueue+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "DispatchQueue+Promise.swift"; path = "Sources/DispatchQueue+Promise.swift"; sourceTree = "<group>"; };
+		3ED83C97CC61B8A39BA16BEE16223A96 /* Pods_CheckWeather.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_CheckWeather.framework; path = "Pods-CheckWeather.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		3F60D56AC3806D36DB165E0A35F7EA7B /* Pods-CheckWeather.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckWeather.debug.xcconfig"; sourceTree = "<group>"; };
+		425FE29A8E02799DC8410764EBC732E7 /* NSObject+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSObject+Promise.swift"; path = "Extensions/Foundation/Sources/NSObject+Promise.swift"; sourceTree = "<group>"; };
+		43CCE1E48111DDDAAB5913AF4CD0AC40 /* Promise+Properties.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+Properties.swift"; path = "Sources/Promise+Properties.swift"; sourceTree = "<group>"; };
+		440243FD7106BC0CAED0A5756BCD6E47 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		45D0B44D0FE3CC109ABAF7F5C9383E57 /* PromiseKit-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-umbrella.h"; sourceTree = "<group>"; };
+		4DC7978D9877E9E20414950BFDF018B7 /* UIViewController+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIViewController+AnyPromise.m"; path = "Extensions/UIKit/Sources/UIViewController+AnyPromise.m"; sourceTree = "<group>"; };
+		57EC03BC97C448B043B9536CD59B9FDE /* PMKQuartzCore.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKQuartzCore.h; path = Extensions/QuartzCore/Sources/PMKQuartzCore.h; sourceTree = "<group>"; };
+		5BC6C4DADB360A4CE9AAB96FDB7C9293 /* PMKUIKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKUIKit.h; path = Extensions/UIKit/Sources/PMKUIKit.h; sourceTree = "<group>"; };
+		643F3518BA1E3CD85133963252C24304 /* State.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = State.swift; path = Sources/State.swift; sourceTree = "<group>"; };
+		646C6235028813B3FD3163D74DA62F92 /* Pods-CheckWeather-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-CheckWeather-frameworks.sh"; sourceTree = "<group>"; };
+		6AC33E3CDA2164AB4CEF497433D76D11 /* CALayer+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CALayer+AnyPromise.m"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.m"; sourceTree = "<group>"; };
+		6D858F64115070942D1E2EC2FEB86B56 /* Pods-CheckWeather-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-CheckWeather-acknowledgements.markdown"; sourceTree = "<group>"; };
+		71ED29401AEA17F1D80891709CE94C86 /* afterlife.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = afterlife.swift; path = Extensions/Foundation/Sources/afterlife.swift; sourceTree = "<group>"; };
+		735C6927A6987893590F8F94C39EC0A6 /* PromiseKit.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = PromiseKit.modulemap; sourceTree = "<group>"; };
+		7548BF8D82A5388C47C4B5B666263D99 /* NSURLSession+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSURLSession+AnyPromise.m"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.m"; sourceTree = "<group>"; };
+		770DBEEEFDEFC0471ECCDAA80F3B992A /* UIView+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIView+Promise.swift"; path = "Extensions/UIKit/Sources/UIView+Promise.swift"; sourceTree = "<group>"; };
+		7775FCCA2FEEC208EE925CFE2E9BAB82 /* Pods-CheckWeather.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-CheckWeather.release.xcconfig"; sourceTree = "<group>"; };
+		784783EF6A151AEF754C1A577577B421 /* join.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = join.swift; path = Sources/join.swift; sourceTree = "<group>"; };
+		7D993A2F755152C81DC27D329F92F0D8 /* PMKCoreLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PMKCoreLocation.h; path = Extensions/CoreLocation/Sources/PMKCoreLocation.h; sourceTree = "<group>"; };
+		80CE7C097BD3404A25EB7A9703997DDD /* CLLocationManager+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLLocationManager+Promise.swift"; path = "Extensions/CoreLocation/Sources/CLLocationManager+Promise.swift"; sourceTree = "<group>"; };
+		84745192FB1B87D89E3C2A57D9D6759A /* AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = AnyPromise.swift; path = Sources/AnyPromise.swift; sourceTree = "<group>"; };
+		863C26697128CB223C82F3C1A2CEC28E /* join.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = join.m; path = Sources/join.m; sourceTree = "<group>"; };
+		8682CBECC477FE0CD7615B4F6D1DDFEF /* Pods-CheckWeather-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-CheckWeather-dummy.m"; sourceTree = "<group>"; };
+		8C5747AD54FC57CBCDD47BB8F7BECB1D /* PromiseKit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = PromiseKit.h; path = Sources/PromiseKit.h; sourceTree = "<group>"; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		9695EA3FE702C2426BE5EFF2675666EE /* CLGeocoder+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "CLGeocoder+Promise.swift"; path = "Extensions/CoreLocation/Sources/CLGeocoder+Promise.swift"; sourceTree = "<group>"; };
+		9E282B951B43861B6556DB0ECA6268FB /* hang.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = hang.m; path = Sources/hang.m; sourceTree = "<group>"; };
+		A48B7C7145A7AF30948AD256563ED543 /* PromiseKit-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "PromiseKit-prefix.pch"; sourceTree = "<group>"; };
+		A619B2015A93278E44EE5DC4ED80E138 /* PromiseKit.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = PromiseKit.framework; path = PromiseKit.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A682890B6AF6CF6DA5BC16B799AD1594 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		A87BEBA69EFFE4752E49DC2C42E2AF7F /* PromiseKit.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = PromiseKit.xcconfig; sourceTree = "<group>"; };
+		AA2AC8E6494EB84E3BFCA1687FA39055 /* CALayer+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CALayer+AnyPromise.h"; path = "Extensions/QuartzCore/Sources/CALayer+AnyPromise.h"; sourceTree = "<group>"; };
+		AC9BFBC122A9221828BFE75ECCCB7226 /* CLLocationManager+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "CLLocationManager+AnyPromise.h"; path = "Extensions/CoreLocation/Sources/CLLocationManager+AnyPromise.h"; sourceTree = "<group>"; };
+		AD3A23BBACECC1FA1AB553D679B6A0A1 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B4B895E20FF252A0E278AA2151738BCE /* GlobalState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = GlobalState.m; path = Sources/GlobalState.m; sourceTree = "<group>"; };
+		B80682687C6518D1CF8C693C9E668D28 /* NSURLSession+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSURLSession+AnyPromise.h"; path = "Extensions/Foundation/Sources/NSURLSession+AnyPromise.h"; sourceTree = "<group>"; };
+		B931CE0F6158FA5C64E6BF9864660369 /* when.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = when.swift; path = Sources/when.swift; sourceTree = "<group>"; };
+		BDE72C98DEF4E1B47E4F3F72DE9C7D5C /* Zalgo.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = Zalgo.swift; path = Sources/Zalgo.swift; sourceTree = "<group>"; };
+		C28565BAF3E9191851FFCF5BFF7D513C /* UIView+AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+AnyPromise.h"; path = "Extensions/UIKit/Sources/UIView+AnyPromise.h"; sourceTree = "<group>"; };
+		D2FFFDFA1A819234F82DB271D5E308D1 /* UIViewController+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "UIViewController+Promise.swift"; path = "Extensions/UIKit/Sources/UIViewController+Promise.swift"; sourceTree = "<group>"; };
+		D542F69DBC27F576BB4814A1D53C05DB /* NSURLSession+Promise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "NSURLSession+Promise.swift"; path = "Extensions/Foundation/Sources/NSURLSession+Promise.swift"; sourceTree = "<group>"; };
+		D623BD71AE1DFE7DB7EDB81050E6352F /* CLLocationManager+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLLocationManager+AnyPromise.m"; path = "Extensions/CoreLocation/Sources/CLLocationManager+AnyPromise.m"; sourceTree = "<group>"; };
+		DDF812F42DF5A94057613CEE87F802E1 /* AnyPromise.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = AnyPromise.h; path = Sources/AnyPromise.h; sourceTree = "<group>"; };
+		E2F493CD34B64DA9D72F4E5C1914E62A /* PromiseKit-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "PromiseKit-dummy.m"; sourceTree = "<group>"; };
+		E553FA01D24F9ED549D93D0F6C436171 /* after.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = after.swift; path = Sources/after.swift; sourceTree = "<group>"; };
+		E793F19464690D60F8F230B87C0E1A39 /* Promise+AnyPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = "Promise+AnyPromise.swift"; path = "Sources/Promise+AnyPromise.swift"; sourceTree = "<group>"; };
+		ECEDBBCCB09F8C5D7C019D9879DB1E70 /* dispatch_promise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = dispatch_promise.m; path = Sources/dispatch_promise.m; sourceTree = "<group>"; };
+		ED1989E041D12BBD3BF6A89CB805812E /* CLGeocoder+AnyPromise.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "CLGeocoder+AnyPromise.m"; path = "Extensions/CoreLocation/Sources/CLGeocoder+AnyPromise.m"; sourceTree = "<group>"; };
+		ED9315F5F556B44AD4D3EFCF94C24B5A /* race.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = race.swift; path = Sources/race.swift; sourceTree = "<group>"; };
+		F01DE0E0649BE478CF27C10139888E24 /* URLDataPromise.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = URLDataPromise.swift; path = Extensions/Foundation/Sources/URLDataPromise.swift; sourceTree = "<group>"; };
+		FA2577F02F318D9E991F1A16537F25BA /* fwd.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = fwd.h; path = Sources/fwd.h; sourceTree = "<group>"; };
+		FC735D90193D97E538E04D2DE9D61D5F /* wrap.swift */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.swift; name = wrap.swift; path = Sources/wrap.swift; sourceTree = "<group>"; };
+		FCF02FA0AE27BD5E053D713413FAAFFA /* Pods-CheckWeather.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-CheckWeather.modulemap"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B85F1C99CF1688811B1829E63193BBB1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				08AD15E279AC18BF1EA54AD380EF4CA7 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		CA896774AC57AF16447F09CA6F4EE868 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				CCF2C2EA1EC5D4218C3831DBC691F9D0 /* CoreLocation.framework in Frameworks */,
+				E1494443C290B8D87FC4C380A96F49B2 /* Foundation.framework in Frameworks */,
+				20F75C783BB62E2792B0ADBF80382A05 /* QuartzCore.framework in Frameworks */,
+				5CE41AF94CFAD5F5EBDE495157494CB5 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				45631E8D3308CE7B74D85E1D88B5C8D4 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		36ADADC9A8D8169CF361FF7C717FB6EB /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				71ED29401AEA17F1D80891709CE94C86 /* afterlife.swift */,
+				3B8614BBDBB29B572730346A1C71569D /* NSNotificationCenter+AnyPromise.h */,
+				305651CAB5CE55AC36409C0CA4870F34 /* NSNotificationCenter+AnyPromise.m */,
+				25BB93AC4FBA3E3FE5824F2AE59D7A04 /* NSNotificationCenter+Promise.swift */,
+				425FE29A8E02799DC8410764EBC732E7 /* NSObject+Promise.swift */,
+				2F527AD733298D30DF210FAD47223E4E /* NSTask+AnyPromise.h */,
+				31A0F45B66E2C5B34AE7B1A92F5CCECE /* NSTask+AnyPromise.m */,
+				B80682687C6518D1CF8C693C9E668D28 /* NSURLSession+AnyPromise.h */,
+				7548BF8D82A5388C47C4B5B666263D99 /* NSURLSession+AnyPromise.m */,
+				D542F69DBC27F576BB4814A1D53C05DB /* NSURLSession+Promise.swift */,
+				0BE8D2CD88465FD0EE9314697A64D901 /* PMKFoundation.h */,
+				2C4C200EA4D9AB1F1E6EE3515BFC5FD2 /* Process+Promise.swift */,
+				F01DE0E0649BE478CF27C10139888E24 /* URLDataPromise.swift */,
+			);
+			name = Foundation;
+			sourceTree = "<group>";
+		};
+		45631E8D3308CE7B74D85E1D88B5C8D4 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				A682890B6AF6CF6DA5BC16B799AD1594 /* CoreLocation.framework */,
+				37FA8B390A3818ECA282029CCC423A89 /* Foundation.framework */,
+				2E596911B2AB8297AD8F3CBF1E2D7CA3 /* QuartzCore.framework */,
+				23ECEDE1294D9B33221BD2903C42A94D /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		709792EED56697CDC27FFF05884C1F32 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				7AAEC23492760817553BC3D3E9EA6106 /* Pods-CheckWeather */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		7AAEC23492760817553BC3D3E9EA6106 /* Pods-CheckWeather */ = {
+			isa = PBXGroup;
+			children = (
+				AD3A23BBACECC1FA1AB553D679B6A0A1 /* Info.plist */,
+				FCF02FA0AE27BD5E053D713413FAAFFA /* Pods-CheckWeather.modulemap */,
+				6D858F64115070942D1E2EC2FEB86B56 /* Pods-CheckWeather-acknowledgements.markdown */,
+				0CA58372C6AA316DF100741B69664915 /* Pods-CheckWeather-acknowledgements.plist */,
+				8682CBECC477FE0CD7615B4F6D1DDFEF /* Pods-CheckWeather-dummy.m */,
+				646C6235028813B3FD3163D74DA62F92 /* Pods-CheckWeather-frameworks.sh */,
+				0D27AE6824E9E92801FCA7F4FD6898E3 /* Pods-CheckWeather-resources.sh */,
+				153A4E75FDFD25E5404D416EA1E8C978 /* Pods-CheckWeather-umbrella.h */,
+				3F60D56AC3806D36DB165E0A35F7EA7B /* Pods-CheckWeather.debug.xcconfig */,
+				7775FCCA2FEEC208EE925CFE2E9BAB82 /* Pods-CheckWeather.release.xcconfig */,
+			);
+			name = "Pods-CheckWeather";
+			path = "Target Support Files/Pods-CheckWeather";
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				14B8B9B15ECBE87983FF987239AB2D7B /* Frameworks */,
+				7F4ADB947C0C16FB8ED9A2107F85D56F /* Pods */,
+				8C241F5E7377212138157F07E4D74217 /* Products */,
+				709792EED56697CDC27FFF05884C1F32 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		7F4ADB947C0C16FB8ED9A2107F85D56F /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				C401E85D2C7C3529E2F3F0AC4223F940 /* PromiseKit */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		8C241F5E7377212138157F07E4D74217 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				3ED83C97CC61B8A39BA16BEE16223A96 /* Pods_CheckWeather.framework */,
+				A619B2015A93278E44EE5DC4ED80E138 /* PromiseKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AB1A9E7B81B534543BABE7E876A2CA77 /* QuartzCore */ = {
+			isa = PBXGroup;
+			children = (
+				AA2AC8E6494EB84E3BFCA1687FA39055 /* CALayer+AnyPromise.h */,
+				6AC33E3CDA2164AB4CEF497433D76D11 /* CALayer+AnyPromise.m */,
+				57EC03BC97C448B043B9536CD59B9FDE /* PMKQuartzCore.h */,
+			);
+			name = QuartzCore;
+			sourceTree = "<group>";
+		};
+		B879F4B8EDD7B9308BB4705DD3AB7937 /* CorePromise */ = {
+			isa = PBXGroup;
+			children = (
+				08FD31D45CF7119E0BB1F0AA3B9253E7 /* after.m */,
+				E553FA01D24F9ED549D93D0F6C436171 /* after.swift */,
+				DDF812F42DF5A94057613CEE87F802E1 /* AnyPromise.h */,
+				153292D7A8D2B566FD764EBE1617894D /* AnyPromise.m */,
+				84745192FB1B87D89E3C2A57D9D6759A /* AnyPromise.swift */,
+				ECEDBBCCB09F8C5D7C019D9879DB1E70 /* dispatch_promise.m */,
+				3D5C96797FDD4A919757FC25554F6E1E /* DispatchQueue+Promise.swift */,
+				346735ACF1C1FE7DB219063FCE0A7495 /* Error.swift */,
+				FA2577F02F318D9E991F1A16537F25BA /* fwd.h */,
+				B4B895E20FF252A0E278AA2151738BCE /* GlobalState.m */,
+				9E282B951B43861B6556DB0ECA6268FB /* hang.m */,
+				863C26697128CB223C82F3C1A2CEC28E /* join.m */,
+				784783EF6A151AEF754C1A577577B421 /* join.swift */,
+				32C11CE7D35F92B6113D67EFA18A6028 /* Promise.swift */,
+				E793F19464690D60F8F230B87C0E1A39 /* Promise+AnyPromise.swift */,
+				43CCE1E48111DDDAAB5913AF4CD0AC40 /* Promise+Properties.swift */,
+				8C5747AD54FC57CBCDD47BB8F7BECB1D /* PromiseKit.h */,
+				ED9315F5F556B44AD4D3EFCF94C24B5A /* race.swift */,
+				643F3518BA1E3CD85133963252C24304 /* State.swift */,
+				2D7E78E259DF2A949BAA8D6C04DE51A2 /* when.m */,
+				B931CE0F6158FA5C64E6BF9864660369 /* when.swift */,
+				FC735D90193D97E538E04D2DE9D61D5F /* wrap.swift */,
+				BDE72C98DEF4E1B47E4F3F72DE9C7D5C /* Zalgo.swift */,
+			);
+			name = CorePromise;
+			sourceTree = "<group>";
+		};
+		C401E85D2C7C3529E2F3F0AC4223F940 /* PromiseKit */ = {
+			isa = PBXGroup;
+			children = (
+				FCE51E675DAA33E67AC22ECDB7744133 /* CoreLocation */,
+				B879F4B8EDD7B9308BB4705DD3AB7937 /* CorePromise */,
+				36ADADC9A8D8169CF361FF7C717FB6EB /* Foundation */,
+				AB1A9E7B81B534543BABE7E876A2CA77 /* QuartzCore */,
+				F41097865A5EFB24E376E507BC9F9A2B /* Support Files */,
+				F69259892DFB483DFF663BB3E3AA10F5 /* UIKit */,
+			);
+			name = PromiseKit;
+			path = PromiseKit;
+			sourceTree = "<group>";
+		};
+		F41097865A5EFB24E376E507BC9F9A2B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				440243FD7106BC0CAED0A5756BCD6E47 /* Info.plist */,
+				735C6927A6987893590F8F94C39EC0A6 /* PromiseKit.modulemap */,
+				A87BEBA69EFFE4752E49DC2C42E2AF7F /* PromiseKit.xcconfig */,
+				E2F493CD34B64DA9D72F4E5C1914E62A /* PromiseKit-dummy.m */,
+				A48B7C7145A7AF30948AD256563ED543 /* PromiseKit-prefix.pch */,
+				45D0B44D0FE3CC109ABAF7F5C9383E57 /* PromiseKit-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/PromiseKit";
+			sourceTree = "<group>";
+		};
+		F69259892DFB483DFF663BB3E3AA10F5 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				0451194F67DA21D5B03DC7B12D91A576 /* PMKAlertController.swift */,
+				5BC6C4DADB360A4CE9AAB96FDB7C9293 /* PMKUIKit.h */,
+				C28565BAF3E9191851FFCF5BFF7D513C /* UIView+AnyPromise.h */,
+				294D48C69D00E4277031982490FC4D57 /* UIView+AnyPromise.m */,
+				770DBEEEFDEFC0471ECCDAA80F3B992A /* UIView+Promise.swift */,
+				01E392BE4FB923195731DC3BB6A25E9D /* UIViewController+AnyPromise.h */,
+				4DC7978D9877E9E20414950BFDF018B7 /* UIViewController+AnyPromise.m */,
+				D2FFFDFA1A819234F82DB271D5E308D1 /* UIViewController+Promise.swift */,
+			);
+			name = UIKit;
+			sourceTree = "<group>";
+		};
+		FCE51E675DAA33E67AC22ECDB7744133 /* CoreLocation */ = {
+			isa = PBXGroup;
+			children = (
+				35175302A4D06B3ABA828AEDC5A17DB5 /* CLGeocoder+AnyPromise.h */,
+				ED1989E041D12BBD3BF6A89CB805812E /* CLGeocoder+AnyPromise.m */,
+				9695EA3FE702C2426BE5EFF2675666EE /* CLGeocoder+Promise.swift */,
+				AC9BFBC122A9221828BFE75ECCCB7226 /* CLLocationManager+AnyPromise.h */,
+				D623BD71AE1DFE7DB7EDB81050E6352F /* CLLocationManager+AnyPromise.m */,
+				80CE7C097BD3404A25EB7A9703997DDD /* CLLocationManager+Promise.swift */,
+				7D993A2F755152C81DC27D329F92F0D8 /* PMKCoreLocation.h */,
+			);
+			name = CoreLocation;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		D1F8DD83BBB65FA306C9993FB2F5D783 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9D26D6D9B6244A978071AEE31CCE678D /* Pods-CheckWeather-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EEA30E574802298C82E26F917D9BC40E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D1C3A849454F5549416721880E35127D /* AnyPromise.h in Headers */,
+				E13FBAA913FBFAEFEA4779F5EC515889 /* CALayer+AnyPromise.h in Headers */,
+				6ED6F2BF81C737BCCB0A57E1A4A7DE8B /* CLGeocoder+AnyPromise.h in Headers */,
+				C62FEC3B5EF81E69E5CE3C6C45CE06F3 /* CLLocationManager+AnyPromise.h in Headers */,
+				00FD28B78AD086399C5EAA0B22F1C452 /* fwd.h in Headers */,
+				2B2E1EEB49868628731F1A979CF1A36A /* NSNotificationCenter+AnyPromise.h in Headers */,
+				FE31D33F65871804BCCB61561FAD6ECF /* NSTask+AnyPromise.h in Headers */,
+				8ED41FA188E5BE97FD2D309B61810F9B /* NSURLSession+AnyPromise.h in Headers */,
+				003E7202A671626F94E472953A54CCB1 /* PMKCoreLocation.h in Headers */,
+				D68EAC453AA07A85852B3778DCE11D9D /* PMKFoundation.h in Headers */,
+				14017FECEB6B587E4591F2E544E2E3F8 /* PMKQuartzCore.h in Headers */,
+				B6703D1DEC95FDC344FAB2BCB5700B5A /* PMKUIKit.h in Headers */,
+				4BB1991D3C645198578EFE9085D6AE7C /* PromiseKit-umbrella.h in Headers */,
+				9234715B9939329D3FAE9C9E03E790D3 /* PromiseKit.h in Headers */,
+				1D869BA209D85A1EC92248855C50915F /* UIView+AnyPromise.h in Headers */,
+				899572D79A7B0340B7FCEDDB1CC26EB0 /* UIViewController+AnyPromise.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		D344B73D3523147A5CAEA45E1A4E91EB /* Pods-CheckWeather */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9F75C074476E89BB5341656508FAFD90 /* Build configuration list for PBXNativeTarget "Pods-CheckWeather" */;
+			buildPhases = (
+				0A82F6C784FA52AE5E138E888F8AFCD9 /* Sources */,
+				B85F1C99CF1688811B1829E63193BBB1 /* Frameworks */,
+				D1F8DD83BBB65FA306C9993FB2F5D783 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B505814BC931545902A4EF6583A57E41 /* PBXTargetDependency */,
+			);
+			name = "Pods-CheckWeather";
+			productName = "Pods-CheckWeather";
+			productReference = 3ED83C97CC61B8A39BA16BEE16223A96 /* Pods_CheckWeather.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		F5AC940D14183F71DE4349BD357E3FBB /* PromiseKit */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6A0360E1CBE545BC028314B7718AD964 /* Build configuration list for PBXNativeTarget "PromiseKit" */;
+			buildPhases = (
+				BF216EEC95A35500C908D8E914B54815 /* Sources */,
+				CA896774AC57AF16447F09CA6F4EE868 /* Frameworks */,
+				EEA30E574802298C82E26F917D9BC40E /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = PromiseKit;
+			productName = PromiseKit;
+			productReference = A619B2015A93278E44EE5DC4ED80E138 /* PromiseKit.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 8C241F5E7377212138157F07E4D74217 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D344B73D3523147A5CAEA45E1A4E91EB /* Pods-CheckWeather */,
+				F5AC940D14183F71DE4349BD357E3FBB /* PromiseKit */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0A82F6C784FA52AE5E138E888F8AFCD9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3716F9A677281608B5D41466B8FB9B9F /* Pods-CheckWeather-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BF216EEC95A35500C908D8E914B54815 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B816DA3F50742C5C04E1FEE9C2CAD18B /* after.m in Sources */,
+				D6158CE41AC7444F4B3371DB55AFB251 /* after.swift in Sources */,
+				A4B8C798009FFB7C42FB8091AA84427F /* afterlife.swift in Sources */,
+				34C5035BF2239D692B643247F8C02864 /* AnyPromise.m in Sources */,
+				7CA19A2C8F283540EAD6875C1B2BE238 /* AnyPromise.swift in Sources */,
+				F7F44CB11F2E0F25B0DE8D4E424D6719 /* CALayer+AnyPromise.m in Sources */,
+				4254B08B0BFACFE0CDA483B1D92F2E46 /* CLGeocoder+AnyPromise.m in Sources */,
+				F947C2BBD1C05C302F6E70FAE74D3D83 /* CLGeocoder+Promise.swift in Sources */,
+				D012FA2848463C0A164E55BD43D4073F /* CLLocationManager+AnyPromise.m in Sources */,
+				FF866B6767612EF297C04CD6589840FF /* CLLocationManager+Promise.swift in Sources */,
+				D2066562CEF89FDD38180D7AC0F1CC63 /* dispatch_promise.m in Sources */,
+				7094CFBEC74FAE46D9838EDCE1AFEE08 /* DispatchQueue+Promise.swift in Sources */,
+				667F63A98F8E3D67456064F09D581C46 /* Error.swift in Sources */,
+				368A2FF0D4845A15A67278435FC38667 /* GlobalState.m in Sources */,
+				51550821C9D1AEA479416B98F18A2E7A /* hang.m in Sources */,
+				FAE3351FF56DECD3B65584D94E44D2A0 /* join.m in Sources */,
+				2A51786602C363FFE239DD80A17BEE4F /* join.swift in Sources */,
+				71698265DCD387C1B050E97BE11DD485 /* NSNotificationCenter+AnyPromise.m in Sources */,
+				4C5F87FF494BB8F10E429FDBCC7EA229 /* NSNotificationCenter+Promise.swift in Sources */,
+				AE00893908CA349CE7CF55E42150EDE3 /* NSObject+Promise.swift in Sources */,
+				ECAD759666371944024DA4A79A585984 /* NSTask+AnyPromise.m in Sources */,
+				7F207F0F13C770FB9863CA10C323D535 /* NSURLSession+AnyPromise.m in Sources */,
+				3F6DE8FEE52174A80262C1F7BBAE6FE7 /* NSURLSession+Promise.swift in Sources */,
+				C1ADAFDC3A83B9C3CD53A9F21C8EFF69 /* PMKAlertController.swift in Sources */,
+				A9E8636AFFBBD7C9E5B3A30BF5E6F450 /* Process+Promise.swift in Sources */,
+				64097C3711C1AC240741695AE2325774 /* Promise+AnyPromise.swift in Sources */,
+				38ED836ECC5CB6200BEF430F5188AB5D /* Promise+Properties.swift in Sources */,
+				1CFE090553452FB3CAC498FFDC8F1148 /* Promise.swift in Sources */,
+				7F1FFDAC479BE28AE195F8B3F313A373 /* PromiseKit-dummy.m in Sources */,
+				BCD8A614A61BBAA50500878B3000D94D /* race.swift in Sources */,
+				AD014349CDF3AB0062B6778FCA8E93AB /* State.swift in Sources */,
+				01FAFD04CFD52833575693E669C97455 /* UIView+AnyPromise.m in Sources */,
+				DAEC30DC1418C1A5AC34078F380EF30C /* UIView+Promise.swift in Sources */,
+				8AAADC1CF3BD12E8901401EB74AE7BD9 /* UIViewController+AnyPromise.m in Sources */,
+				C86DE32842A55F5A764657F2F5038E92 /* UIViewController+Promise.swift in Sources */,
+				C176F4357A5F0A3FB959BE7B2D50FF17 /* URLDataPromise.swift in Sources */,
+				CAB65BFF7B81F6952B382228B140BDAA /* when.m in Sources */,
+				D0A1AFB8DDF21A5DB08C59BD9AC28912 /* when.swift in Sources */,
+				70FCDA9FA0606F9A9B9495B529BF2D8F /* wrap.swift in Sources */,
+				BC569E6AD7C8FF6AE39403116F77B14E /* Zalgo.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B505814BC931545902A4EF6583A57E41 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = PromiseKit;
+			target = F5AC940D14183F71DE4349BD357E3FBB /* PromiseKit */;
+			targetProxy = 0B7F29E088B711991417D3BF66EA17BC /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		1AABBEB69324DFD03D895A69790C46F7 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7775FCCA2FEEC208EE925CFE2E9BAB82 /* Pods-CheckWeather.release.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CheckWeather/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CheckWeather/Pods-CheckWeather.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CheckWeather;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		898C9A51A80FE5582637B0BE5E8D865E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87BEBA69EFFE4752E49DC2C42E2AF7F /* PromiseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		8F769E6F1A4F2F173736113F6058628E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A87BEBA69EFFE4752E49DC2C42E2AF7F /* PromiseKit.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_PREFIX_HEADER = "Target Support Files/PromiseKit/PromiseKit-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/PromiseKit/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/PromiseKit/PromiseKit.modulemap";
+				PRODUCT_NAME = PromiseKit;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		A20B0BDFC4838E55DCAD094ED2792393 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Release;
+		};
+		B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		FE5BB7F67193FBC3527754220ECE167C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F60D56AC3806D36DB165E0A35F7EA7B /* Pods-CheckWeather.debug.xcconfig */;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_WEAK = NO;
+				CODE_SIGN_IDENTITY = "";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				INFOPLIST_FILE = "Target Support Files/Pods-CheckWeather/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-CheckWeather/Pods-CheckWeather.modulemap";
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_CheckWeather;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B53EDD60891CA0A99618C4BA3DEEBB79 /* Debug */,
+				A20B0BDFC4838E55DCAD094ED2792393 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6A0360E1CBE545BC028314B7718AD964 /* Build configuration list for PBXNativeTarget "PromiseKit" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				898C9A51A80FE5582637B0BE5E8D865E /* Debug */,
+				8F769E6F1A4F2F173736113F6058628E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9F75C074476E89BB5341656508FAFD90 /* Build configuration list for PBXNativeTarget "Pods-CheckWeather" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE5BB7F67193FBC3527754220ECE167C /* Debug */,
+				1AABBEB69324DFD03D895A69790C46F7 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
